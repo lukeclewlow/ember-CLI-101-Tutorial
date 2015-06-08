@@ -1,4 +1,4 @@
-import Ember from 'ember';
+import FriendsBaseController from './base';
 
 export default FriendsBaseController.extend({
 		cancel: function() {
@@ -6,5 +6,4 @@ export default FriendsBaseController.extend({
 
 			return false;
 		}
-	}	
 });

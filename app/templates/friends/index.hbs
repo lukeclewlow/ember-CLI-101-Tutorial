@@ -2,6 +2,12 @@
 {{model.length}}
 <ul>
 	{{#each friend in model}}
-		<li>{{friend.firstName}} {{friend.lastName}}</li>
+		<li>
+			{{#link-to 'friends.show' friend}}
+				{{friend.fullName}}
+			{{/link-to}}
+		</li>
 	{{/each}}
-</ul>{{outlet}}
+</ul>
+
+{{outlet}}

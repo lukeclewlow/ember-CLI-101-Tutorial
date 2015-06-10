@@ -5,12 +5,12 @@ export default Ember.Route.extend({
 		save: function() {
 			console.log('+---- save action bubbld up to application route');
 
-			return true
+			return true;
 		},
 		cancel: function() {
 			console.log('+---- cancel action bubbled up to application route');
 
-			return true
+			return true;
 		}
 	}
 });

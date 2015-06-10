@@ -4,7 +4,6 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 var app = new EmberApp();
 
-// app.import('bower_components/materialize/dist/css/materialize.css', 'bower_components/materialize/dist/js/materialize.js');
 app.import('bower_components/picnic/releases/picnic.min.css');
 app.import('vendor/fontello/fontello.css');
 app.import('vendor/fontello/font/fontello.ttf', 

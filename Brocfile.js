@@ -4,9 +4,8 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 var app = new EmberApp();
 
-app.import('bower_components/picnic/releases/picnic.min.css');
 app.import('vendor/fontello/fontello.css');
-app.import('vendor/fontello/font/fontello.ttf', 
+app.import('vendor/fontello/font/fontello.ttf',
 	{ destDir: 'font'
 });
 app.import('vendor/fontello/font/fontello.eot', 
@@ -18,6 +17,7 @@ app.import('vendor/fontello/font/fontello.svg',
 app.import('vendor/fontello/font/fontello.woff',
  { destDir: 'font'
 });
+app.import('bower_components/picnic/releases/v3.css');
 
 // Use `app.import` to add additional libraries to the generated
 // output files.

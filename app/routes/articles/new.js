@@ -15,7 +15,7 @@ export default Ember.Route.extend({
 				model.save().then(function(){
 					_this.transitionTo('articles');
 				});
-			}
+			};
 		},
 		cancel: function() {
 			this.transitionTo('articles');
